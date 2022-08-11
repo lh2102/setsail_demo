@@ -211,6 +211,7 @@ header.header{
 
 
 .slider_index{
+    height: 48rem;
     position: relative;
 }
 .slider_content{
@@ -221,18 +222,16 @@ header.header{
     overflow: hidden;
 }
 .img_background_1{
-    height: 480px;
-    width: auto;
-    background-image: url(https://vcdn1-dulich.vnecdn.net/2019/11/29/Epson-International-Pano-2019-vnexpress-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=n5au_uUAj8RmL0Lt9dEQlQ);
+    height: 48rem;
+    background-image: url(https://vcdn1-dulich.vnecdn.net/2019/11/29/Epson-International-Pano-2019-vnexpress-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=n5au_uUAj8RmL0Lt9dEQlQ) ;
     background-repeat: no-repeat;
     background-size: 100%;
     animation: img_zoom 8s ease-in-out;
 }
 
 .img_background_2{
-    height: 480px;
-    width: auto;
-    background-image: url(https://i0.wp.com/static.majamja.com/2020/02/1541752477945_4867309-1.jpg?resize=1200%2C628&ssl=1);
+    height: 48rem;
+    background-image: url(https://i0.wp.com/static.majamja.com/2020/02/1541752477945_4867309-1.jpg?resize=1200%2C628&ssl=1) ;
     background-repeat: no-repeat;
     background-size: 100%;
     animation: img_zoom 8s ease-in-out;
