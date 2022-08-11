@@ -577,7 +577,6 @@ header.header{
 .intro{
     max-width: 1300px;
     padding-top: 150px;
-    
     display: flex;
     justify-content: space-between;
 }
