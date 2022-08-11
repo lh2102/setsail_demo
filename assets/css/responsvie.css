@@ -92,16 +92,19 @@
       opacity: 0;
    }
    .content span {
-      top: 12rem;
+      top: 14rem;
       font-size: 3.5rem;
    }
    .content h2 {
-      top: 17rem;
-      font-size: 5rem;
+      top: 19rem;
+      font-size: 4rem;
+      font-weight: 600;
+      letter-spacing: -0.05rem;
    }
    .content p {
-      top: 25rem;
-      font-size: 1.4rem;
+      top: 27rem;
+      font-size: 1.2rem;
+      letter-spacing: -0.05rem;
    }
 }
 
