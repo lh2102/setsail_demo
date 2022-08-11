@@ -603,7 +603,7 @@ header.header{
     line-height: 1.7rem;  
 }
 .intro_img{
-    width: 50%;
+    width: 40%;
     transform: translateY(2px);
     transition: all 0.2s ease-in;
 }
