@@ -193,13 +193,30 @@
       padding-top: 6rem;
       gap: 2rem 0; 
    }
+   .introduce{
+      padding-bottom: 8rem;
+   }
    .intro_wrapper{
+      width: 23.5rem;
       margin: 0;
+   }
+   .intro_img{
+      width: 30%;
    }
    .intro_content{
       margin-top: 1.5rem;
       font-size: 1.2rem;
       line-height: 1.9rem;
+   }
+   .planthe{
+      padding-top: 5rem;
+   }
+
+   .footer_main{
+      flex-direction: column;
+      gap: 3rem;
+    padding: 5rem 4rem 4rem;
+
    }
 }
 
@@ -372,13 +389,28 @@
       padding-top: 9rem;
       grid-gap: 4rem 7rem;
    }
+   
    .intro_wrapper{
       margin: 0;
+   }
+   .intro_img{
+      width: 40%;
    }
    .intro_content{
       margin-top: 1.5rem;
       font-size: 1.2rem;
       line-height: 1.9rem;
+   }
+   .planthe{
+      padding-top: 5rem;
+   }
+
+   .footer_main{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0 4rem;
+    padding: 6rem 5rem 7rem;
+
    }
 }
 
