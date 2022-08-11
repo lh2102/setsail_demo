@@ -68,16 +68,16 @@
       display: none;
    }
    .slider_index {
-      height: 50rem;
+      height: 40rem;
    }
    .img_background_1 {
-      height: 50rem;
+      height: 40rem;
       animation: img_zoom 8s ease-in-out;
       background-size: cover;
       background-position: 50% 50%;
    }
    .img_background_2 {
-      height: 50rem;
+      height: 40rem;
       animation: img_zoom 8s ease-in-out;
       background-size: cover;
       background-position: 50% 50%;
@@ -105,6 +105,33 @@
       top: 27rem;
       font-size: 1.2rem;
       letter-spacing: -0.05rem;
+   }
+
+
+
+   .search {
+      margin: 0 3rem;
+      flex-direction: column;
+      transform: translateY(-20%);
+   }
+   .search_list{
+      width: 100%;
+      flex-direction: column;
+   }
+   .search_content {
+      padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+      border-right: none;
+      border-bottom: 0.05rem solid #cfcfcf;
+   }
+   .search_item i{
+      margin-right: 0.6rem;
+   }
+   .search_icon{
+      width: 100%;
+      padding: 1.5rem 5rem;
+   }
+   .search_item .search_input {
+      font-size: 1.2rem;
    }
 }
 
@@ -179,16 +206,16 @@
 
    /* slider */
    .slider_index {
-      height: 70rem;
+      height: 60rem;
    }
    .img_background_1 {
-      height: 70rem;
+      height: 60rem;
       animation: img_zoom 8s ease-in-out;
       background-size: cover;
       background-position: 50% 50%;
    }
    .img_background_2 {
-      height: 70rem;
+      height: 60rem;
       animation: img_zoom 8s ease-in-out;
       background-size: cover;
       background-position: 50% 50%;
@@ -213,6 +240,22 @@
    .content p {
       top: 45rem;
       font-size: 1.5rem;
+   }
+
+   .search {
+      margin: 0 7rem;
+   }
+   .search_content {
+      padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+   }
+   .search_item i{
+      margin-right: 0.6rem;
+   }
+   .search_icon{
+      padding: 2rem 5rem;
+   }
+   .search_item .search_input {
+      font-size: 1.2rem;
    }
 }
 
@@ -242,6 +285,25 @@
       padding: 1.52rem 2.5rem;
       cursor: pointer;
       overflow: visible;
+   }
+   .content span {
+      font-size: 5rem;
+   }
+   .content h2 {
+      font-size: 7.5rem;
+   }
+   .content p {
+      top: 32rem;
+      font-size: 1.5rem;
+   }
+   .search {
+      margin: 0 7rem;
+   }
+   .search_content {
+      padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+   }
+   .search_item .search_input {
+      font-size: 1.2rem;
    }
 }
 
