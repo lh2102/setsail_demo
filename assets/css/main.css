@@ -575,13 +575,15 @@ header.header{
     justify-content: center;
 }
 .intro{
-    max-width: 1300px;
     padding-top: 150px;
     display: flex;
     justify-content: space-between;
 }
 .intro_wrapper{
-    width: 23.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin-left: 4.5rem;
     margin-right: 4.5rem;
@@ -601,6 +603,7 @@ header.header{
     line-height: 1.7rem;  
 }
 .intro_img{
+    width: 50%;
     transform: translateY(2px);
     transition: all 0.2s ease-in;
 }
@@ -630,7 +633,90 @@ header.header{
 
 
 .kkk{
-    height: 1000rem;
+    height: 10rem;
+}
+
+
+.footer{
+    background-color: #000000;
+}
+.footer_main{
+    padding: 10rem 11rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 0 4rem;
+}
+.footer a{
+    display: block;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+.footer a>p{
+    color: white;
+}
+.footer h5{
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.footer p,h5{
+    color: #a9a9a9;
+    font-size: 1.3rem;
+}
+.footer p{
+    margin-bottom: 2rem;
+}
+.footer h2{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.textwidget{
+    text-align: center;
+    color: #ccc;
+    font-size: 1.4rem
+}
+.textwidget a{
+    text-decoration: none;
+    color: wheat;
+    display: inline-block;
+    align-items: center;
+    line-height: 1.4rem;
+}
+.footer_item{
+    flex: 1;
+}
+.footer_item i{
+    margin-right: 1rem;
+    color: var(--blue-color);
+}
+.footer_item i,p{
+    display: inline-block;
+}
+.footer_item input{
+    padding: 2rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 3px;
+    line-height: 1.7rem;
+    background-color: #595959;
+    color: white;
+    border: none;
+}
+.footer_item input::placeholder{
+    color: white;
+}
+.footer_item button{
+    width: 100%;
+    padding: 1.3rem;
+    background-color: var(--blue-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+
 }
 
 
