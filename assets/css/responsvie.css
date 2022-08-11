@@ -107,14 +107,12 @@
       letter-spacing: -0.05rem;
    }
 
-
-
    .search {
       margin: 0 3rem;
       flex-direction: column;
       transform: translateY(-20%);
    }
-   .search_list{
+   .search_list {
       width: 100%;
       flex-direction: column;
    }
@@ -123,10 +121,10 @@
       border-right: none;
       border-bottom: 0.05rem solid #cfcfcf;
    }
-   .search_item i{
+   .search_item i {
       margin-right: 0.6rem;
    }
-   .search_icon{
+   .search_icon {
       width: 100%;
       padding: 1.5rem 5rem;
    }
@@ -134,26 +132,74 @@
       font-size: 1.2rem;
    }
 
-.content_heading span{
-    font-size: 2.5rem;
+   .content_heading span {
+      font-size: 2.5rem;
+   }
+   .content_heading h3 {
+      font-size: 4.5rem;
+   }
+   .content_heading p {
+      font-size: 1rem;
+   }
 
-}
-.content_heading h3{
-    font-size: 4.5rem;
-}
-.content_heading p{
-   font-size: 1rem;
-}
 
-   .content_hold{
+   .content_hold {
       margin-top: 2rem;
    }
-   .content_img{
+   .content_img {
       margin: 0 4rem;
    }
-   .content_img-list{
+   .content_img-list {
       grid-template-columns: 1fr;
       grid-gap: 4rem 0;
+   }
+
+   .gettings_from_paris {
+      padding: 3rem 0 7rem;
+   }
+   .gettings_from_paris img {
+      width: 60%;
+   }
+
+
+   .background_video{
+      height: auto;
+      padding-bottom: 5rem;
+   }
+   .background_video .content_heading span {
+      font-size: 2.5rem;
+   }
+   .background_video .content_heading h3 {
+      font-size: 4.5rem;
+   }
+   .background_video .content_heading p {
+      font-size: 1rem;
+   }
+   .background_video .video_load{
+      margin-top: 2rem;
+      padding: 0 1rem;
+   }
+   .background_video .video_load img{
+      width: 100%;
+   }
+   .video_icon{
+    padding: 1.5rem;
+      font-size: 1rem;
+   }
+
+
+   .intro{
+      flex-direction: column;
+      padding-top: 6rem;
+      gap: 2rem 0; 
+   }
+   .intro_wrapper{
+      margin: 0;
+   }
+   .intro_content{
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+      line-height: 1.9rem;
    }
 }
 
@@ -270,27 +316,69 @@
    .search_content {
       padding: 1.5rem 1.5rem 1.5rem 1.5rem;
    }
-   .search_item i{
+   .search_item i {
       margin-right: 0.6rem;
    }
-   .search_icon{
+   .search_icon {
       padding: 2rem 5rem;
    }
    .search_item .search_input {
       font-size: 1.2rem;
    }
 
-
-
-   .content_hold{
+   .content_hold {
       margin-top: 6rem;
    }
-   .content_img{
+   .content_img {
       margin: 0 4rem;
    }
-   .content_img-list{
+   .content_img-list {
       grid-template-columns: 1fr 1fr;
       grid-gap: 4rem;
+   }
+   .gettings_from_paris img {
+      width: 80%;
+   }
+
+   .background_video{
+      height: auto;
+      padding-bottom: 6rem;
+   }
+   .background_video .content_heading span {
+      font-size: 5rem;
+   }
+   .background_video .content_heading h3 {
+      font-size: 7.5rem;
+   }
+   .background_video .content_heading p {
+      font-size: 1.5rem;
+   }
+   .background_video .video_load{
+      margin-top: 4rem;
+      padding: 0 2rem;
+   }
+   .background_video .video_load img{
+      width: 100%;
+   }
+   .video_icon{
+    padding: 1.7rem;
+      font-size: 1.1rem;
+   }
+
+
+   .intro{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-top: 9rem;
+      grid-gap: 4rem 7rem;
+   }
+   .intro_wrapper{
+      margin: 0;
+   }
+   .intro_content{
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+      line-height: 1.9rem;
    }
 }
 
@@ -340,6 +428,9 @@
    .search_item .search_input {
       font-size: 1.2rem;
    }
+   .gettings_from_paris img {
+      width: 80%;
+   }
 }
 
 /* 1248px */
@@ -352,5 +443,8 @@
    }
    .header_logo_mobile {
       display: none;
+   }
+   .gettings_from_paris img {
+      width: 80%;
    }
 }
