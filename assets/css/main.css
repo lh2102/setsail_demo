@@ -348,6 +348,8 @@ header.header{
 }
 .search_item .search_input{
     flex: 1;
+    width: 100%;
+    font-size: 1.4rem;
 }
 .search_item i{
     font-size: 1.5rem;
@@ -358,7 +360,7 @@ header.header{
 .search_icon{
     flex: 1;
     text-align: center;
-    padding: 2.8rem 1rem;
+    padding: 2.8rem 5rem;
     background-color: var(--blue-color);
 }
 .search_icon span{
@@ -629,7 +631,7 @@ header.header{
 
 
 .kkk{
-    height: 500px;
+    height: 1000rem;
 }
 
 
