@@ -133,6 +133,28 @@
    .search_item .search_input {
       font-size: 1.2rem;
    }
+
+.content_heading span{
+    font-size: 2.5rem;
+
+}
+.content_heading h3{
+    font-size: 4.5rem;
+}
+.content_heading p{
+   font-size: 1rem;
+}
+
+   .content_hold{
+      margin-top: 2rem;
+   }
+   .content_img{
+      margin: 0 4rem;
+   }
+   .content_img-list{
+      grid-template-columns: 1fr;
+      grid-gap: 4rem 0;
+   }
 }
 
 /* Tab */
@@ -256,6 +278,19 @@
    }
    .search_item .search_input {
       font-size: 1.2rem;
+   }
+
+
+
+   .content_hold{
+      margin-top: 6rem;
+   }
+   .content_img{
+      margin: 0 4rem;
+   }
+   .content_img-list{
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 4rem;
    }
 }
 
