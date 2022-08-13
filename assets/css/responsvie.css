@@ -142,7 +142,6 @@
       font-size: 1rem;
    }
 
-
    .content_hold {
       margin-top: 2rem;
    }
@@ -161,8 +160,7 @@
       width: 60%;
    }
 
-
-   .background_video{
+   .background_video {
       height: auto;
       padding-bottom: 5rem;
    }
@@ -175,48 +173,52 @@
    .background_video .content_heading p {
       font-size: 1rem;
    }
-   .background_video .video_load{
+   .background_video .video_load {
       margin-top: 2rem;
       padding: 0 1rem;
    }
-   .background_video .video_load img{
+   .background_video .video_load img {
       width: 100%;
    }
-   .video_icon{
-    padding: 1.5rem;
+   .video_icon {
+      padding: 1.5rem;
       font-size: 1rem;
    }
 
-
-   .intro{
+   .intro {
       flex-direction: column;
       padding-top: 6rem;
-      gap: 2rem 0; 
+      gap: 2rem 0;
    }
-   .introduce{
+   .introduce {
       padding-bottom: 8rem;
    }
-   .intro_wrapper{
+   .intro_wrapper {
       width: 23.5rem;
       margin: 0;
    }
-   .intro_img{
+   .intro_img {
       width: 30%;
    }
-   .intro_content{
+   .intro_content {
       margin-top: 1.5rem;
       font-size: 1.2rem;
       line-height: 1.9rem;
    }
-   .planthe{
+   .planthe {
       padding-top: 5rem;
    }
 
-   .footer_main{
+   .footer_main {
       flex-direction: column;
       gap: 3rem;
-    padding: 5rem 4rem 4rem;
-
+      padding: 5rem 4rem 4rem;
+   }
+   .plant_item{
+      border-radius: 0;
+   }
+   .slick-track {
+      gap: 0;
    }
 }
 
@@ -357,7 +359,7 @@
       width: 80%;
    }
 
-   .background_video{
+   .background_video {
       height: auto;
       padding-bottom: 6rem;
    }
@@ -370,48 +372,53 @@
    .background_video .content_heading p {
       font-size: 1.5rem;
    }
-   .background_video .video_load{
+   .background_video .video_load {
       margin-top: 4rem;
       padding: 0 2rem;
    }
-   .background_video .video_load img{
+   .background_video .video_load img {
       width: 100%;
    }
-   .video_icon{
-    padding: 1.7rem;
+   .video_icon {
+      padding: 1.7rem;
       font-size: 1.1rem;
    }
 
-
-   .intro{
+   .intro {
       display: grid;
       grid-template-columns: 1fr 1fr;
       padding-top: 9rem;
       grid-gap: 4rem 7rem;
    }
-   
-   .intro_wrapper{
+
+   .intro_wrapper {
       margin: 0;
    }
-   .intro_img{
+   .intro_img {
       width: 40%;
    }
-   .intro_content{
+   .intro_content {
       margin-top: 1.5rem;
       font-size: 1.2rem;
       line-height: 1.9rem;
    }
-   .planthe{
+   .planthe {
       padding-top: 5rem;
    }
 
-   .footer_main{
+   .footer_main {
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 0 4rem;
-    padding: 6rem 5rem 7rem;
-
+      padding: 6rem 5rem 7rem;
    }
+   .plant_item{
+      border-radius: 0;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+   }
+   .slick-track {
+      gap: 1.5rem;
+   }  
 }
 
 /* pc */
@@ -462,6 +469,16 @@
    }
    .gettings_from_paris img {
       width: 80%;
+   }
+   .plant_content{
+      padding: 2rem;
+   }
+   .plant_price{
+      font-size: 1.4rem;
+   }
+   .plant_item{
+      border-radius: 0;
+      margin: 0 1rem;
    }
 }
 
